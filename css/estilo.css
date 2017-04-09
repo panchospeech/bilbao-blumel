@@ -79,11 +79,11 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
-	background-image:url('../images/dupla-primera.jpg');
-	background-position:top right;
+	background-color:Whitesmoke;
+	background-image:url('../images/dupla_primera.png');
+	background-position:center right;
 	background-repeat:no-repeat;
-	background-size:auto 100%;
+	background-size:auto 90%;
 }
 .primera h4{padding: 2% 40% 1% 2%;}
 
@@ -96,11 +96,11 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
-	background-image:url('../images/dupla-segunda.jpg');
-	background-position:top left;
+	background-color:whitesmoke;
+	background-image:url('../images/dupla_segunda.png');
+	background-position:center left;
 	background-repeat:no-repeat;
-	background-size:auto 100%;
+	background-size:auto 90%;
 }
 
 .segunda h4{padding: 2% 2% 1% 40%;}
@@ -121,30 +121,30 @@ video{
 	background:rgb(250,250,250);
 	padding-bottom:1%;
 	/* 4 veces lo mismo, para que funcione en distintos navegadores */
-	-webkit-animation: fondo 3s infinite linear alternate;
-	-moz-animation: fondo 3s infinite linear alternate;
-	-ms-animation: fondo 3s infinite linear alternate;
-	animation: fondo 3s infinite linear alternate;
+	-webkit-animation: fondo 5s infinite linear alternate;
+	-moz-animation: fondo 5s infinite linear alternate;
+	-ms-animation: fondo 5s infinite linear alternate;
+	animation: fondo 5s infinite linear alternate;
 	}
 
 @-webkit-keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
+	from {background-color: Silver;}
+	to {background-color:WhiteSmoke;}
 }
 
 @-moz-keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
+	from {background-color: Silver;}
+	to {background-color:WhiteSmoke;}
 }
 
 @-ms-keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
+	from {background-color: Silver;}
+	to {background-color:WhiteSmoke;}
 }
 
 @keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
+	from {background-color: Silver;}
+	to {background-color:WhiteSmoke;}
 }
 
 .item {
@@ -152,20 +152,20 @@ video{
 	margin:1%;
 	color:#333;
 	background:white;
-	box-shadow:0 0 5px rgb(240,240,240);
+
 }
 
 .item figure{overflow:hidden;}
 
 .item figure img{width:100%; height:auto; margin-bottom:-4px;}
 
-.item:hover{cursor:crosshair;}
+.item:hover{cursor:auto;}
 
 .item:hover figure img{
-	-webkit-transform:scale(1.5);
-	-moz-transform:scale(1.5);
-	-ms-transform:scale(1.5);
-	transform:scale(1.5);
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	transform:scale(1.2);
 	-webkit-transition:-webkit-transform ease-out 1s;
 	-moz-transition:-moz-transform ease-out 1s;
 	-ms-transition:-ms-transform ease-out 1s;
@@ -189,6 +189,8 @@ footer{
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
+
+
 }
 
 footer p{
